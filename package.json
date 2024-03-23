@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-with-telegraf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node index.js",
+    "hears": "nodemon node hears.js",
+    "event": "nodemon node on-method.js",
+    "middleware": "nodemon node middleware.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  }
+}
